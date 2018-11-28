@@ -70,3 +70,7 @@ github pages link
 ```sh
     https://zydplatform.github.io/iReport/
 ```
+Authors:
+```sh
+Kiganda Ivan
+```
