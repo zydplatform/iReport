@@ -4,46 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../static/style.css">
-    <title>Sign up | iReport</title>
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/font-awesome/css/font-awesome.min.css">
+
+    <title>iReport</title>
 </head>
-<body>
+<body> 
+        <div class="header"><i class="fa fa-user"></i>iReport | Sign up</div>
     <div class="container">
-        <header><h1>Sign up</h1></header>
         <div class="content">
-            <form action="" id="login">
-                
-                <div class="username">
-                    <label for="name">Username</label>
-                    <div>
-                        <input type="text" id="username" name="username" required>
+            <form id="signup">
+                <div class="logo"></div>
+                <div class="input">
+                    <div class="row">
+                        <div class="col-25"><label for="fname">Firstname <span>required*</span></label></div>
+                        <div class="col-75"><input type="text" required id="fname" onfocus="this.value=''" placeholder="please enter your first name"></div>
                     </div>
-                </div><br>
-                <div class="email">
-                    <label for="name">Email</label>
-                    <div>
-                        <input type="email" id="email" name="email" required>
+                    <div class="row">
+                        <div class="col-25"><label for="lname">Lastname <span>required*</span></label></div>
+                        <div class="col-75"><input type="text" required id="lname" onfocus="this.value=''" placeholder="please enter your last name"></div>
                     </div>
-                </div><br>                    
-                <div class="password">
-                    <label for="password">Password</label>
-                    <div>
-                        <input type="password" name="password" id="password" required>
+                    <div class="row">
+                        <div class="col-25"><label for="username">Username <span>required*</span></label></div>
+                        <div class="col-75"><input type="text" required id="username" onfocus="this.value=''" placeholder="please enter your username"></div>
                     </div>
-                </div><br>
-                <div class="confirm">
-                    <label for="confirm">Confirm Password</label>
-                    <div>
-                        <input type="password" name="confirm" id="confirm" required>
+                    <div class="row">
+                        <div class="col-25"><label for="email">Email <span>required*</span></label></div>
+                        <div class="col-75"><input type="email" required id="email" onfocus="this.value=''" placeholder="please enter your email"></div>
                     </div>
-                </div><br>
-                <div class="submit">
-                    <input type="submit" value="Submit" id="submit">
+                    <div class="row">
+                        <div class="col-25"><label for="date">Registered <span>required*</span></label></div>
+                        <div class="col-75"><input type="date" required id="date" onfocus="this.value=''" placeholder="please enter your date"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="phone">Phone Number <span>required*</span></label></div>
+                        <div class="col-75"><input type="text" required id="phone" onfocus="this.value=''" placeholder="please enter your phone number"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="password">Password <span>required*</span></label></div>
+                        <div class="col-75"><input type="password" required id="password" onfocus="this.value=''" placeholder="please enter password"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="confirm">Confirm Password</label></div>
+                            <div class="col-75"><input type="password" required id="confirm" onfocus="this.value=''" placeholder="please confirm password"></div>
+                    </div>
+                    
+                   <a href="/index.html"><input type="submit" value="Submit"></a>
                 </div>
             </form>
         </div>
-        <footer></footer>
+        <div class="footer"><i class=""></i>@kigandaivan-iReport application version 1.0 &copy;copyright 2018</div>
     </div>
-    
+    <script src="../static/signup.js"></script>
 </body>
 </html>
