@@ -1,4 +1,3 @@
-# BUILD STATUS:
 
 # iReport
 iReport is an application that helps to give instant news and constant awareness of corruption in society
