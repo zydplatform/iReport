@@ -12,6 +12,6 @@ signup.addEventListener('submit',function(p){
         p.target.phone.value = '';
         p.target.password.value = '';
         p.target.confirm.value = '';        
-        window.location.href = '../../index.html';
+        window.location.href = '/index.html';
 }
 });
