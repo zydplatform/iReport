@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/font-awesome/css/font-awesome.min.css">
+
+    <title>iReport</title>
+</head>
+<body>
+    <div class="header"><i class="fa fa-user"></i>iReport  | intervention
+    <div class="links">
+        <a href="../../index.html">Logout</a>
+        <a href="../templates/contact.html">Feedback</a>
+        <a href="../templates/admin_update.html">Update report</a>
+        <a href="../templates/allreports.html">All reports</a>
+    </div>
+    </div>
+    <div class="container">
+        <div class="header"></div>
+        <div class="content">
+                  
+            <form>
+                <div class="form-head">
+                    Report 
+                </div>
+                <div class="logo"></div>
+                <div class="input">
+                    <div class="row">
+                        <div class="col-25"><label for="username">Username</label></div>
+                        <div class="col-75"><input type="text" id="username" onfocus="this.value=''" placeholder="username"></div>
+                    </div>
+                    
+                    <div class="row">
+                            <div class="col-25"><label for="report-type">Report-type</label></div>
+                            <div class="col-75"><select id="report-type" onfocus="this.value=''" placeholder="report-type"><option id="red-flag" value="1">red flag</option><option id="intervention" value="2">intervention</option></select></div>
+                    </div>
+                    <div class="row">
+                            <div class="col-25"><label for="title">Title</label></div>
+                            <div class="col-75"><input type="text" id="title" onfocus="this.value=''" placeholder="story title"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="description">Description</label></div>
+                        <div class="col-75"><textarea id="description" onfocus="this.value=''" placeholder="report description"></textarea></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="location" >Location</label></div>
+                        <div class="col-75"><input type="text" id="location" onfocus="this.value=''" placeholder="give us your location"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="email">Date</label></div>
+                        <div class="col-75"><input type="date" id="date" onfocus="this.value=''" placeholder="date"></div>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit" id="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer"><i class=""></i>@kigandaivan-iReport application version 1.0 &copy;copyright 2018</div>
+    </div>
+    <script src="../static/main.js"></script>
+</body>
+</html>
