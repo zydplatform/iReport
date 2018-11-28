@@ -7,10 +7,10 @@ login.addEventListener('submit', function(e){
 
     if (e.target.name.value == 'admin' && e.target.password.value == 'admin'){
         e.target.name.value = '';        
-        window.location.href = '../IREPORT/UI/templates/allreports.html'
+        window.location.href = '../iReport/UI/templates/allreports.html'
     } else if (e.target.name.value == 'user' && e.target.password.value == 'user'){
         e.target.name.value = '';
-        window.location.href = '../IREPORT/UI/templates/userreports.html';
+        window.location.href = '../iReport/UI/templates/userreports.html';
     }
 
     if (e.target.name.value == '' || e.target.password.value == ''){
